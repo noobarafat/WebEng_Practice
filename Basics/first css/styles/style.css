@@ -1,0 +1,28 @@
+.first{
+    background: green;
+    text-align: justify;
+
+}
+
+p{
+
+    text-decoration: overline;
+    text-align: justify;
+    /* display: none; */
+    /* visibility: hidden; */
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.blog{
+    border: 2px solid red;
+    box-shadow: 10px 5px 10px blueviolet;
+}
+
+.span{
+    color: blue;
+    border: 1px solid white;
+    margin: 10px;
+    background: #a30f0f;
+    padding: 10px;
+}
