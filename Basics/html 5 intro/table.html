@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
       table {
         border-collapse: collapse;
@@ -16,46 +17,60 @@
     </style>
   </head>
   <body>
-    <h1>HTML Table</h1>
-    <table>
-        <caption>Employee Salary Table</caption>
-      <thead>
-        <th>No.</th>
-        <th>Name</th>
-        <th>Compamy</th>
-        <th>Salary</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Bill Gates</td>
-          <td>Microsoft</td>
-          <td>$1000</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Manik Bhai</td>
-          <td>Microsoft</td>
-          <td>$1000</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Bill Gates</td>
-          <td>Microsoft</td>
-          <td>$1000</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Bill Gates</td>
-          <td>Microsoft</td>
-          <td>$1000</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">Total Employee: 4</td>
-        </tr>
-      </tfoot>
-    </table>
+    <header>
+        <nav>
+            <ul>
+                <li><a target="_blank" href="video.html">Video</a></li>
+                <li><a target="_blank" href="form.html">Form</a></li>
+                <li><a target="_blank" href="blog.html">Blog</a></li>
+                <li><a target="_blank" href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <h1>HTML Table</h1>
+      <table>
+        <caption>
+          Employee Salary Table
+        </caption>
+        <thead>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Compamy</th>
+          <th>Salary</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Manik Bhai</td>
+            <td>Microsoft</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>$1000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total Employee: 4</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
   </body>
 </html>
