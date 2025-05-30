@@ -7,10 +7,10 @@
     justify-content: space-around;
     /* justify-content:space-between; */
     /* justify-content::space-evenly; */
-
-    height: 350px;
+    /* height: 350px; */
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .child{
