@@ -3,12 +3,39 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-
 /* Nav Styles */
-nav{
-    display: flex;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+  margin: 50px 200px;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.button{
+    background:orange;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
 }
